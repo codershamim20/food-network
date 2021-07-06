@@ -89,7 +89,8 @@ p{
 footer{
     background-color: rgb(31, 31, 54);
     text-align: center;
-    padding: 40px 200px 20px 200px;
+    padding: 40px 70px 20px 70px;
     margin-top: 70px;
     color:white;
+    line-height: 5px;
 }
