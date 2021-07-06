@@ -10,9 +10,7 @@ h1{
     font-size: 60px;
 }
 .half-width{
-    width: 100%;
-    padding-top: 5%;
-    padding-left: 7%;
+    padding: 5%;
 }
 .multicolor-text{
     color: coral;
@@ -23,7 +21,8 @@ h1{
     text-decoration: none;
     padding: 20px 50px;
     border-radius: 50px;
-    background-image: linear-gradient(coral,rgb(247, 142, 104));
+    background-image: linear-gradient(rgb(240, 88, 33), salmon);
+    box-shadow: 2px 2px 10px .5px coral;
 }
 p{
     margin-bottom: 70px;
@@ -32,17 +31,52 @@ p{
     display: flex;
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    width: 100%;
-
 }
 .my-recepie-text{
     text-align: center;
     line-height: 1px;
     margin-top: 100px;
 }
+.recepie-card{
+ display: flex;
+ padding-left: 50px;
+}
+.receipe-iteam{
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow:5px 5px 25px 1px rgb(221, 220, 220);
+    width: 30%;
+    height: 380px;
+    padding: 2%;
+    line-height: 20px;
+    
+}
+.receipe-iteam img{
+        border-radius: 10px;
+        padding: 2px;
+        width: 300px;
+
+}
+.social-media-count-down{
+    display: flex;
+    border-radius: 30px;
+    box-shadow:5px 5px 25px 1px rgb(221, 220, 220);
+    width: 88%;
+    height: 150px;
+    padding: 2%;
+    line-height: 20px;
+    margin: 75px; 
+}
+.social-media-iteam{
+    width: 350px;
+    height: 150px;
+    margin: 0 75px;
+    line-height: 5px;
+}
 footer{
-    background-color: rgb(43, 43, 87);
+    background-color: rgb(31, 31, 54);
     text-align: center;
-    line-height: 1.5px;
-    padding: 50px 300px;
+    padding: 40px 200px 20px 200px;
+    margin-top: 70px;
+    color:white;
 }
